@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="HEADING"
+        android:textAlignment="center"
+        android:textColor="#1b1b1b"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_below="@id/slide_heading"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:padding="35dp"
+        android:text="Description for help fragment"
+        android:textColor="#808080"
+        android:textSize="16sp" />
+
+</RelativeLayout>

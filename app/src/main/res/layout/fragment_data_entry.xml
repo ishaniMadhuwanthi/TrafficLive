@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".DataEntryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/violation_accident"
+                android:layout_marginTop="25dp" />
+
+            <Spinner
+                android:id="@+id/spinnerViol"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/licence_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner"
+                android:layout_marginTop="75dp"
+                android:background="@drawable/search_layout"
+                android:ems="10"
+                android:hint="Licence Details..."
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/scan_qr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="72dp"
+                android:layout_toRightOf="@+id/licence_details"
+                android:background="@drawable/data_entry_btn_style"
+                android:ems="10"
+                android:padding="15dp"
+                android:text="QR Scanner"
+                android:textColor=" #000" />
+
+
+            <TextView
+                android:id="@+id/numPlate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/licence_details"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/search_layout"
+                android:ems="10"
+                android:hint="Number Plate..."
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/rec_numPlate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scan_qr"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_toRightOf="@+id/numPlate"
+                android:background="@drawable/data_entry_btn_style"
+                android:ems="10"
+                android:padding="1dp"
+                android:text="Recognize Number Plate"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/locationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/numPlate"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/search_layout"
+                android:ems="10"
+                android:hint="Location"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/getLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/numPlate"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="36dp"
+                android:layout_toRightOf="@+id/locationText"
+                android:background="@drawable/data_entry_btn_style"
+                android:ems="10"
+                android:paddingTop="1dp"
+                android:paddingRight="3dp"
+                android:text="Get Current Location"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locationText"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/search_layout"
+                android:ems="10"
+                android:hint="Select Date"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/search_layout"
+                android:ems="10"
+                android:hint="Select Time"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/timeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locationText"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="109dp"
+                android:layout_toRightOf="@+id/timer"
+                android:background="@drawable/data_entry_btn_style"
+                android:ems="10"
+                android:padding="1dp"
+                android:text="Get time"
+                android:textColor="#000" />
+
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="500dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="575dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="450dp"
+                android:ems="10"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000" />
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/reg_btn_style"
+                android:text="SUBMIT"
+                android:textColor="#fff" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

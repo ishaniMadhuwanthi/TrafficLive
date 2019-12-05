@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#117cc9"
+    android:id="@+id/container"
+    tools:context=".ProfileActivity">
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="Start Reporting Violation"
+        android:textColor="#fff" />
+
+
+    <Button
+        android:id="@+id/getlogin"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="340dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="Now Login to the system"
+        android:textColor="#fff" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/Vdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/Vtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/Vdate"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/accident_violation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Violation/Accident"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/Vtime"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/Vfault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fault"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/accident_violation"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/VLicenceDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LicenceDetails"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/Vfault"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Vnumberplate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NumberPlate"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/VLicenceDetails"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/Vlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/Vnumberplate"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/Vdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/Vlocation"
+        android:textColor="#000"/>
+
+
+</RelativeLayout>
