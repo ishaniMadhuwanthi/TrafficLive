@@ -1,8 +1,18 @@
 # TrafficLive
 
+- - - - - - - - - 
+
 ## CO227-Project- Database for traffic violations mobile app with QR Scanner,Number plate recognition and data retrieving
 
-----------------------------------------------------------------------------------------------------------------------------
+
+Project Colloborators: 
+
+* [Ishani Maduwanthi](https://github.com/ishaniMadhuwanthi)
+* [Roshani Dilhara](https://github.com/RoshaniDilhara)
+* [Imalsha Dinuwanthi](https://github.com/Imalshadinu)
+
+---------------------------------------------------------------------------------
+
 
 ## Problem
 
