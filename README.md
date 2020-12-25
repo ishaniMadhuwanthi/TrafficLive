@@ -28,7 +28,9 @@ So that, our project owner, the police officers required a mobile application to
 
 It is a mobile app, developed by using Android Studio with Java . It includes QR Scanner and Number Plate Recognition. 
 We develped a mobile application. 
+
   **Fontend**  : Android Studio with Java
+  
   **Database** : Firebase
   
 Following are the functionalities that we have used in the application.
@@ -46,7 +48,7 @@ When QR Code in the license is scanned, all the details are updated in the datab
 
 The app will open mobile camera from a button click and can take vehicle number plate photo and recognition its details and realtime update the database.
 
-* Data retrieving
+* **Data retrieving**
 
 We have used Firebase Database. All the details taken from QR code scaning and vehicle number plate recogintion are updated in the database. Therefore, by entering **NIC number** of the driver, the police officer can retrieve data and find his previous traffic violations. 
 
